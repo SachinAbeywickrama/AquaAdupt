@@ -1,0 +1,422 @@
+{
+  "mrtfn": {
+    "single_step_metrics": {
+      "ph": {
+        "MSE": 0.05944937840104103,
+        "RMSE": 0.24382242560386658,
+        "MAE": 0.1870999038219452,
+        "R2": 0.9421892166137695,
+        "Correlation": 0.9707034057061185,
+        "MAPE": 2.209387939231878,
+        "NRMSE_percent": 2.9051395344070174,
+        "NMAE_percent": 2.229291773021652,
+        "Accuracy_percent": 97.09486046559299,
+        "Mean_actual": 6.562002182006836,
+        "Std_actual": 0.7818613052368164
+      },
+      "water_temp": {
+        "MSE": 0.06925973296165466,
+        "RMSE": 0.263172447681427,
+        "MAE": 0.1740037202835083,
+        "R2": 0.929152250289917,
+        "Correlation": 0.9640972018277512,
+        "MAPE": 2.551854289845281,
+        "NRMSE_percent": 3.8126192621762445,
+        "NMAE_percent": 2.5208183511911386,
+        "Accuracy_percent": 96.18738073782376,
+        "Mean_actual": 27.151086807250977,
+        "Std_actual": 3.9334192276000977
+      },
+      "turbidity": {
+        "MSE": 0.07401998341083527,
+        "RMSE": 0.2720661461353302,
+        "MAE": 0.20759834349155426,
+        "R2": 0.9220678806304932,
+        "Correlation": 0.9605187125482079,
+        "MAPE": 4.8085991480296615,
+        "NRMSE_percent": 6.26166811905106,
+        "NMAE_percent": 4.777926057592916,
+        "Accuracy_percent": 93.73833188094893,
+        "Mean_actual": 31.21025848388672,
+        "Std_actual": 7.183116436004639
+      }
+    },
+    "horizon_metrics": {
+      "1h": {
+        "horizon_steps": 3,
+        "horizon_minutes": 60,
+        "overall_mse": 0.07868222147226334,
+        "r2_per_target": {
+          "ph": 0.9317451119422913,
+          "water_temp": 0.9183995127677917,
+          "turbidity": 0.9080855250358582
+        }
+      },
+      "2h": {
+        "horizon_steps": 6,
+        "horizon_minutes": 120,
+        "overall_mse": 0.09765882790088654,
+        "r2_per_target": {
+          "ph": 0.9125924110412598,
+          "water_temp": 0.8993889689445496,
+          "turbidity": 0.886520266532898
+        }
+      },
+      "6h": {
+        "horizon_steps": 18,
+        "horizon_minutes": 360,
+        "overall_mse": 0.11492583900690079,
+        "r2_per_target": {
+          "ph": 0.8965787291526794,
+          "water_temp": 0.8842103481292725,
+          "turbidity": 0.8612967133522034
+        }
+      },
+      "12h": {
+        "horizon_steps": 36,
+        "horizon_minutes": 720,
+        "overall_mse": 0.11260361224412918,
+        "r2_per_target": {
+          "ph": 0.8970674276351929,
+          "water_temp": 0.8844152092933655,
+          "turbidity": 0.8723354935646057
+        }
+      },
+      "24h": {
+        "horizon_steps": 72,
+        "horizon_minutes": 1440,
+        "overall_mse": 0.11612347513437271,
+        "r2_per_target": {
+          "ph": 0.8972153663635254,
+          "water_temp": 0.8818235993385315,
+          "turbidity": 0.8640035390853882
+        }
+      },
+      "48h": {
+        "horizon_steps": 144,
+        "horizon_minutes": 2880,
+        "overall_mse": 0.11466197669506073,
+        "r2_per_target": {
+          "ph": 0.8961151838302612,
+          "water_temp": 0.885062038898468,
+          "turbidity": 0.8655990958213806
+        }
+      }
+    }
+  },
+  "cnn_lstm": {
+    "single_step_metrics": {
+      "ph": {
+        "MSE": 0.06162536144256592,
+        "RMSE": 0.24824455380439758,
+        "MAE": 0.19025245308876038,
+        "R2": 0.9400732517242432,
+        "Correlation": 0.969650749786524,
+        "MAPE": 2.2489407304884614,
+        "NRMSE_percent": 2.957829107278591,
+        "NMAE_percent": 2.266854337197232,
+        "Accuracy_percent": 97.04217089272142,
+        "Mean_actual": 6.562002182006836,
+        "Std_actual": 0.7818613052368164
+      },
+      "water_temp": {
+        "MSE": 0.06874879449605942,
+        "RMSE": 0.26219990849494934,
+        "MAE": 0.17911942303180695,
+        "R2": 0.9296749234199524,
+        "Correlation": 0.9642291566229125,
+        "MAPE": 2.6169245159389636,
+        "NRMSE_percent": 3.7985299391173406,
+        "NMAE_percent": 2.5949303146947855,
+        "Accuracy_percent": 96.20147006088266,
+        "Mean_actual": 27.151086807250977,
+        "Std_actual": 3.9334192276000977
+      },
+      "turbidity": {
+        "MSE": 0.08122721314430237,
+        "RMSE": 0.2850038707256317,
+        "MAE": 0.21645063161849976,
+        "R2": 0.9144797325134277,
+        "Correlation": 0.95648885966167,
+        "MAPE": 5.003167748803962,
+        "NRMSE_percent": 6.559432977894826,
+        "NMAE_percent": 4.981663608672046,
+        "Accuracy_percent": 93.44056702210517,
+        "Mean_actual": 31.21025848388672,
+        "Std_actual": 7.183116436004639
+      }
+    },
+    "horizon_metrics": {
+      "1h": {
+        "horizon_steps": 3,
+        "horizon_minutes": 60,
+        "overall_mse": 0.08494946360588074,
+        "r2_per_target": {
+          "ph": 0.9249969720840454,
+          "water_temp": 0.9154560565948486,
+          "turbidity": 0.8985971212387085
+        }
+      },
+      "2h": {
+        "horizon_steps": 6,
+        "horizon_minutes": 120,
+        "overall_mse": 0.11002304404973984,
+        "r2_per_target": {
+          "ph": 0.9007818102836609,
+          "water_temp": 0.8908336758613586,
+          "turbidity": 0.868724524974823
+        }
+      },
+      "6h": {
+        "horizon_steps": 18,
+        "horizon_minutes": 360,
+        "overall_mse": 0.13235212862491608,
+        "r2_per_target": {
+          "ph": 0.8814401626586914,
+          "water_temp": 0.8638581037521362,
+          "turbidity": 0.8425729274749756
+        }
+      },
+      "12h": {
+        "horizon_steps": 36,
+        "horizon_minutes": 720,
+        "overall_mse": 0.12978965044021606,
+        "r2_per_target": {
+          "ph": 0.8815065622329712,
+          "water_temp": 0.8642606735229492,
+          "turbidity": 0.8552061319351196
+        }
+      },
+      "24h": {
+        "horizon_steps": 72,
+        "horizon_minutes": 1440,
+        "overall_mse": 0.13332606852054596,
+        "r2_per_target": {
+          "ph": 0.8862085938453674,
+          "water_temp": 0.8623507022857666,
+          "turbidity": 0.8413649201393127
+        }
+      },
+      "48h": {
+        "horizon_steps": 144,
+        "horizon_minutes": 2880,
+        "overall_mse": 0.13188183307647705,
+        "r2_per_target": {
+          "ph": 0.8797246813774109,
+          "water_temp": 0.8688974380493164,
+          "turbidity": 0.8451205492019653
+        }
+      }
+    }
+  },
+  "transformer": {
+    "single_step_metrics": {
+      "ph": {
+        "MSE": 0.05818024277687073,
+        "RMSE": 0.24120581150054932,
+        "MAE": 0.18416979908943176,
+        "R2": 0.9434233903884888,
+        "Correlation": 0.9713742150984773,
+        "MAPE": 2.172146503933027,
+        "NRMSE_percent": 2.873962627446933,
+        "NMAE_percent": 2.1943796312147796,
+        "Accuracy_percent": 97.12603737255307,
+        "Mean_actual": 6.562002182006836,
+        "Std_actual": 0.7818613052368164
+      },
+      "water_temp": {
+        "MSE": 0.06885384023189545,
+        "RMSE": 0.26240015029907227,
+        "MAE": 0.1783105581998825,
+        "R2": 0.9295674562454224,
+        "Correlation": 0.9642984843279292,
+        "MAPE": 2.5949927181434567,
+        "NRMSE_percent": 3.8014308725783397,
+        "NMAE_percent": 2.5832121668952666,
+        "Accuracy_percent": 96.19856912742166,
+        "Mean_actual": 27.151086807250977,
+        "Std_actual": 3.9334192276000977
+      },
+      "turbidity": {
+        "MSE": 0.07330896705389023,
+        "RMSE": 0.2707562744617462,
+        "MAE": 0.20510618388652802,
+        "R2": 0.9228165149688721,
+        "Correlation": 0.9607474385885801,
+        "MAPE": 4.731171458133668,
+        "NRMSE_percent": 6.231521105852112,
+        "NMAE_percent": 4.720568401860852,
+        "Accuracy_percent": 93.76847889414789,
+        "Mean_actual": 31.21025848388672,
+        "Std_actual": 7.183116436004639
+      }
+    },
+    "horizon_metrics": {
+      "1h": {
+        "horizon_steps": 3,
+        "horizon_minutes": 60,
+        "overall_mse": 0.08641419559717178,
+        "r2_per_target": {
+          "ph": 0.9244057536125183,
+          "water_temp": 0.9104480743408203,
+          "turbidity": 0.8996521830558777
+        }
+      },
+      "2h": {
+        "horizon_steps": 6,
+        "horizon_minutes": 120,
+        "overall_mse": 0.11070426553487778,
+        "r2_per_target": {
+          "ph": 0.9034285545349121,
+          "water_temp": 0.887270450592041,
+          "turbidity": 0.8673976063728333
+        }
+      },
+      "6h": {
+        "horizon_steps": 18,
+        "horizon_minutes": 360,
+        "overall_mse": 0.11425284296274185,
+        "r2_per_target": {
+          "ph": 0.897953450679779,
+          "water_temp": 0.8841667175292969,
+          "turbidity": 0.8620535731315613
+        }
+      },
+      "12h": {
+        "horizon_steps": 36,
+        "horizon_minutes": 720,
+        "overall_mse": 0.11202546209096909,
+        "r2_per_target": {
+          "ph": 0.9011573791503906,
+          "water_temp": 0.8806084394454956,
+          "turbidity": 0.873695969581604
+        }
+      },
+      "24h": {
+        "horizon_steps": 72,
+        "horizon_minutes": 1440,
+        "overall_mse": 0.11465278267860413,
+        "r2_per_target": {
+          "ph": 0.9031080007553101,
+          "water_temp": 0.882570743560791,
+          "turbidity": 0.8615812063217163
+        }
+      },
+      "48h": {
+        "horizon_steps": 144,
+        "horizon_minutes": 2880,
+        "overall_mse": 0.11380717903375626,
+        "r2_per_target": {
+          "ph": 0.8990241289138794,
+          "water_temp": 0.8855418562889099,
+          "turbidity": 0.864753007888794
+        }
+      }
+    }
+  },
+  "ensemble": {
+    "single_step_metrics": {
+      "ph": {
+        "MSE": 0.04963004216551781,
+        "RMSE": 0.22277800738811493,
+        "MAE": 0.17221039533615112,
+        "R2": 0.9517379403114319,
+        "Correlation": 0.9756230933321358,
+        "MAPE": 2.03343462876728,
+        "NRMSE_percent": 2.654395694148028,
+        "NMAE_percent": 2.051883564392613,
+        "Accuracy_percent": 97.34560430585198,
+        "Mean_actual": 6.562002182006836,
+        "Std_actual": 0.7818613052368164
+      },
+      "water_temp": {
+        "MSE": 0.057190973311662674,
+        "RMSE": 0.23914633691310883,
+        "MAE": 0.15993265807628632,
+        "R2": 0.9414977431297302,
+        "Correlation": 0.9703899381262204,
+        "MAPE": 2.33723376744233,
+        "NRMSE_percent": 3.4645493425570155,
+        "NMAE_percent": 2.3169687336374207,
+        "Accuracy_percent": 96.53545065744298,
+        "Mean_actual": 27.151086807250977,
+        "Std_actual": 3.9334192276000977
+      },
+      "turbidity": {
+        "MSE": 0.06336032599210739,
+        "RMSE": 0.2517147660255432,
+        "MAE": 0.19251245260238647,
+        "R2": 0.933290958404541,
+        "Correlation": 0.9660925132000282,
+        "MAPE": 4.450348579211879,
+        "NRMSE_percent": 5.79327618634527,
+        "NMAE_percent": 4.4307206321108445,
+        "Accuracy_percent": 94.20672381365473,
+        "Mean_actual": 31.21025848388672,
+        "Std_actual": 7.183116436004639
+      }
+    },
+    "horizon_metrics": {
+      "1h": {
+        "horizon_steps": 3,
+        "horizon_minutes": 60,
+        "overall_mse": 0.05988997593522072,
+        "r2_per_target": {
+          "ph": 0.9471550583839417,
+          "water_temp": 0.9389451742172241,
+          "turbidity": 0.9299237132072449
+        }
+      },
+      "2h": {
+        "horizon_steps": 6,
+        "horizon_minutes": 120,
+        "overall_mse": 0.07932291179895401,
+        "r2_per_target": {
+          "ph": 0.9293563961982727,
+          "water_temp": 0.9200025796890259,
+          "turbidity": 0.9057224988937378
+        }
+      },
+      "6h": {
+        "horizon_steps": 18,
+        "horizon_minutes": 360,
+        "overall_mse": 0.08842014521360397,
+        "r2_per_target": {
+          "ph": 0.9211499094963074,
+          "water_temp": 0.9115227460861206,
+          "turbidity": 0.8919177055358887
+        }
+      },
+      "12h": {
+        "horizon_steps": 36,
+        "horizon_minutes": 720,
+        "overall_mse": 0.08514873683452606,
+        "r2_per_target": {
+          "ph": 0.9232269525527954,
+          "water_temp": 0.9113081693649292,
+          "turbidity": 0.9036487340927124
+        }
+      },
+      "24h": {
+        "horizon_steps": 72,
+        "horizon_minutes": 1440,
+        "overall_mse": 0.08838430047035217,
+        "r2_per_target": {
+          "ph": 0.9245464205741882,
+          "water_temp": 0.9094053506851196,
+          "turbidity": 0.8941820859909058
+        }
+      },
+      "48h": {
+        "horizon_steps": 144,
+        "horizon_minutes": 2880,
+        "overall_mse": 0.08811888843774796,
+        "r2_per_target": {
+          "ph": 0.9210593700408936,
+          "water_temp": 0.9122313857078552,
+          "turbidity": 0.8952000141143799
+        }
+      }
+    }
+  }
+}

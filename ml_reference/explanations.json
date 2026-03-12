@@ -1,0 +1,926 @@
+{
+  "feature_importance": {
+    "ph": [
+      0.01012420654296875,
+      -0.009716510772705078,
+      -0.011229991912841797,
+      0.0021730661392211914,
+      -0.021966934204101562,
+      -0.010650396347045898,
+      -0.0039980411529541016,
+      -0.009397506713867188,
+      -0.5402669906616211,
+      -0.09278208017349243,
+      -0.01835918426513672,
+      0.1659468412399292,
+      0.041986942291259766,
+      -0.037552595138549805,
+      -0.0026972293853759766,
+      -0.009755849838256836,
+      -0.008215546607971191,
+      -0.02503061294555664,
+      -0.08069705963134766,
+      -0.015189170837402344,
+      0.0012756586074829102,
+      -0.051621198654174805,
+      -0.020235896110534668,
+      -0.44895362854003906,
+      -0.027405142784118652,
+      -0.06633013486862183,
+      -0.05936777591705322,
+      -0.014490246772766113,
+      -0.010625123977661133,
+      -0.032494425773620605,
+      -0.013871431350708008,
+      -0.004796028137207031,
+      0.012368202209472656,
+      -0.011037468910217285,
+      -0.01007533073425293,
+      -0.007508635520935059,
+      -0.020958662033081055,
+      -0.02776968479156494,
+      -0.027771592140197754
+    ],
+    "water_temp": [
+      -0.07303214073181152,
+      -0.0018588900566101074,
+      -0.009548842906951904,
+      -0.02277982234954834,
+      -0.005137324333190918,
+      -0.003265082836151123,
+      -0.0046346187591552734,
+      0.009521424770355225,
+      -0.06470412015914917,
+      -0.026572763919830322,
+      -0.0421445369720459,
+      -0.01252281665802002,
+      -0.00645291805267334,
+      -0.4389147460460663,
+      -0.07642662525177002,
+      0.02855294942855835,
+      0.13607460260391235,
+      0.008305013179779053,
+      -0.06474888324737549,
+      0.0070111751556396484,
+      -0.05344104766845703,
+      -0.02060544490814209,
+      -0.006552159786224365,
+      -0.04347890615463257,
+      -0.01599287986755371,
+      -0.04434859752655029,
+      -0.3929542899131775,
+      -0.005912065505981445,
+      -0.020855486392974854,
+      -0.08225202560424805,
+      -0.025787711143493652,
+      -0.058768272399902344,
+      -0.05305665731430054,
+      -0.0076757073402404785,
+      0.002547919750213623,
+      -0.003689587116241455,
+      -0.011381149291992188,
+      0.008010327816009521,
+      -0.056936025619506836
+    ],
+    "turbidity": [
+      0.00622403621673584,
+      0.009925484657287598,
+      -0.006522715091705322,
+      -0.02318054437637329,
+      -0.029053986072540283,
+      -0.022602617740631104,
+      -0.018886923789978027,
+      -0.022088825702667236,
+      -0.07607805728912354,
+      -0.03121638298034668,
+      -0.03649938106536865,
+      -0.02596127986907959,
+      -0.025247693061828613,
+      -0.05904752016067505,
+      -0.016337990760803223,
+      -0.022013485431671143,
+      -0.08410906791687012,
+      -0.049905240535736084,
+      -0.5266579389572144,
+      -0.09070414304733276,
+      -0.040482282638549805,
+      -0.012142598628997803,
+      -0.03254503011703491,
+      -0.08414316177368164,
+      -0.039856135845184326,
+      -0.04969590902328491,
+      -0.052228331565856934,
+      -0.00861293077468872,
+      -0.03991591930389404,
+      -0.5287869572639465,
+      -0.0056275129318237305,
+      -0.09678822755813599,
+      -0.003956794738769531,
+      -0.008918046951293945,
+      -0.008358955383300781,
+      -0.014260172843933105,
+      -0.038826167583465576,
+      -0.017485857009887695,
+      -0.03582870960235596
+    ]
+  },
+  "temporal_importance": [
+    [
+      -0.011516213417053223,
+      -0.008663952350616455,
+      -0.013701200485229492
+    ],
+    [
+      -0.010921239852905273,
+      -0.015317916870117188,
+      -0.023803889751434326
+    ],
+    [
+      -0.007803201675415039,
+      -0.009805083274841309,
+      -0.024117708206176758
+    ],
+    [
+      -0.00742340087890625,
+      -0.015317380428314209,
+      -0.02294611930847168
+    ],
+    [
+      0.0046656131744384766,
+      -0.025021135807037354,
+      -0.02256190776824951
+    ],
+    [
+      -0.012186884880065918,
+      -0.00999373197555542,
+      -0.02415013313293457
+    ],
+    [
+      -0.017641544342041016,
+      -0.011461377143859863,
+      -0.036501169204711914
+    ],
+    [
+      -0.009451150894165039,
+      -0.01562345027923584,
+      -0.027624070644378662
+    ],
+    [
+      -0.0177232027053833,
+      -0.0020799636840820312,
+      -0.02281665802001953
+    ],
+    [
+      -0.0017970800399780273,
+      -0.019874989986419678,
+      -0.025458216667175293
+    ],
+    [
+      -0.014406681060791016,
+      -0.012374460697174072,
+      -0.04158264398574829
+    ],
+    [
+      -0.02459108829498291,
+      -0.023700833320617676,
+      -0.029535770416259766
+    ],
+    [
+      -0.010180830955505371,
+      -0.007328152656555176,
+      -0.0280839204788208
+    ],
+    [
+      -0.01605355739593506,
+      -0.01952725648880005,
+      -0.029305338859558105
+    ],
+    [
+      0.017361998558044434,
+      -0.01346665620803833,
+      -0.033248066902160645
+    ],
+    [
+      0.0018526315689086914,
+      -0.013505101203918457,
+      -0.04924511909484863
+    ],
+    [
+      -0.028366804122924805,
+      -0.02871602773666382,
+      -0.013748586177825928
+    ],
+    [
+      -0.010225057601928711,
+      -0.01849454641342163,
+      0.011478424072265625
+    ],
+    [
+      -0.05512958765029907,
+      -0.04419749975204468,
+      -0.06258201599121094
+    ],
+    [
+      0.03924560546875,
+      0.020295441150665283,
+      -0.05791604518890381
+    ],
+    [
+      -0.1057044267654419,
+      -0.03859257698059082,
+      -0.09330165386199951
+    ],
+    [
+      -0.05456799268722534,
+      -0.018701016902923584,
+      0.002297341823577881
+    ],
+    [
+      -0.12103253602981567,
+      -0.12127584218978882,
+      -0.21597057580947876
+    ],
+    [
+      -0.2068358063697815,
+      -0.1353285312652588,
+      -0.16824328899383545
+    ]
+  ],
+  "sample_explanations": [
+    {
+      "prediction": {
+        "ph": 0.6586878299713135,
+        "water_temp": -0.7407492399215698,
+        "turbidity": -0.4205915629863739
+      },
+      "top_features": {
+        "ph": [
+          {
+            "feature": "turbidity_roll_std_6",
+            "importance": 0.00011422091483836994
+          },
+          {
+            "feature": "ph_roll_std_6",
+            "importance": 0.00010948238195851445
+          },
+          {
+            "feature": "water_temp_roll_std_6",
+            "importance": 9.031085210153833e-05
+          },
+          {
+            "feature": "water_temp_diff",
+            "importance": 7.333597022807226e-05
+          },
+          {
+            "feature": "turbidity_roll_mean_6",
+            "importance": 5.8939327573170885e-05
+          },
+          {
+            "feature": "ph_roll_mean_6",
+            "importance": 5.6407268857583404e-05
+          },
+          {
+            "feature": "ph_lag2",
+            "importance": 5.511956987902522e-05
+          },
+          {
+            "feature": "ph_lag1",
+            "importance": 5.483487620949745e-05
+          },
+          {
+            "feature": "hour_cos",
+            "importance": 5.414524275693111e-05
+          },
+          {
+            "feature": "turbidity_lag2",
+            "importance": 5.229418457020074e-05
+          }
+        ],
+        "water_temp": [
+          {
+            "feature": "ph_roll_std_6",
+            "importance": 3.959935565944761e-05
+          },
+          {
+            "feature": "water_temp_roll_std_6",
+            "importance": 3.428606942179613e-05
+          },
+          {
+            "feature": "turbidity_lag1",
+            "importance": 2.9098424420226365e-05
+          },
+          {
+            "feature": "turbidity_lag2",
+            "importance": 2.6022529709734954e-05
+          },
+          {
+            "feature": "turbidity_roll_mean_6",
+            "importance": 2.4396351363975555e-05
+          },
+          {
+            "feature": "turbidity_lag3",
+            "importance": 2.4300767108798027e-05
+          },
+          {
+            "feature": "turbidity_diff",
+            "importance": 2.3478170987800695e-05
+          },
+          {
+            "feature": "water_temp_lag1",
+            "importance": 2.1198438844294287e-05
+          },
+          {
+            "feature": "water_temp_diff",
+            "importance": 2.0872097593382932e-05
+          },
+          {
+            "feature": "water_temp_lag2",
+            "importance": 1.9216078726458363e-05
+          }
+        ],
+        "turbidity": [
+          {
+            "feature": "turbidity_diff",
+            "importance": 3.828465560218319e-05
+          },
+          {
+            "feature": "day_cos",
+            "importance": 2.9446149710565805e-05
+          },
+          {
+            "feature": "temp_diff",
+            "importance": 2.7573996703722514e-05
+          },
+          {
+            "feature": "water_temp_lag1",
+            "importance": 2.2275802621152252e-05
+          },
+          {
+            "feature": "ph_roll_std_6",
+            "importance": 2.1932202798780054e-05
+          },
+          {
+            "feature": "water_temp_roll_mean_6",
+            "importance": 2.1466701582539827e-05
+          },
+          {
+            "feature": "water_temp_lag2",
+            "importance": 2.129081985913217e-05
+          },
+          {
+            "feature": "water_temp_lag3",
+            "importance": 2.080201193166431e-05
+          },
+          {
+            "feature": "water_temp_lag6",
+            "importance": 2.02439750864869e-05
+          },
+          {
+            "feature": "air_temp_lag3",
+            "importance": 1.9006078218808398e-05
+          }
+        ]
+      }
+    },
+    {
+      "prediction": {
+        "ph": 1.075964331626892,
+        "water_temp": -0.08026652038097382,
+        "turbidity": -0.555860698223114
+      },
+      "top_features": {
+        "ph": [
+          {
+            "feature": "turbidity_diff",
+            "importance": 5.868390871910378e-06
+          },
+          {
+            "feature": "ph_lag6",
+            "importance": 5.278501703287475e-06
+          },
+          {
+            "feature": "ph_lag1",
+            "importance": 5.273717306408798e-06
+          },
+          {
+            "feature": "ph_lag2",
+            "importance": 5.1735114539042115e-06
+          },
+          {
+            "feature": "hour_sin",
+            "importance": 5.105879608890973e-06
+          },
+          {
+            "feature": "ph_lag12",
+            "importance": 5.090025297249667e-06
+          },
+          {
+            "feature": "air_temp",
+            "importance": 5.079853053757688e-06
+          },
+          {
+            "feature": "ph_lag3",
+            "importance": 5.057075213699136e-06
+          },
+          {
+            "feature": "ph_roll_mean_6",
+            "importance": 5.023602625442436e-06
+          },
+          {
+            "feature": "temp_diff",
+            "importance": 4.893512596026994e-06
+          }
+        ],
+        "water_temp": [
+          {
+            "feature": "ph_roll_std_6",
+            "importance": 3.242037200834602e-05
+          },
+          {
+            "feature": "day_sin",
+            "importance": 2.943408617284149e-05
+          },
+          {
+            "feature": "hour_sin",
+            "importance": 2.7086301997769624e-05
+          },
+          {
+            "feature": "rain",
+            "importance": 1.9630248061730526e-05
+          },
+          {
+            "feature": "rain_lag1",
+            "importance": 1.626702578505501e-05
+          },
+          {
+            "feature": "water_temp_diff",
+            "importance": 1.544937549624592e-05
+          },
+          {
+            "feature": "turbidity_lag2",
+            "importance": 1.3943249541625846e-05
+          },
+          {
+            "feature": "turbidity_lag1",
+            "importance": 1.3873051102564204e-05
+          },
+          {
+            "feature": "turbidity_lag3",
+            "importance": 1.375714873574907e-05
+          },
+          {
+            "feature": "day_cos",
+            "importance": 1.3670157386513893e-05
+          }
+        ],
+        "turbidity": [
+          {
+            "feature": "turbidity_diff",
+            "importance": 5.63841313123703e-05
+          },
+          {
+            "feature": "day_cos",
+            "importance": 4.2756324546644464e-05
+          },
+          {
+            "feature": "ph_roll_std_6",
+            "importance": 3.811990245594643e-05
+          },
+          {
+            "feature": "temp_diff",
+            "importance": 3.645617834990844e-05
+          },
+          {
+            "feature": "air_temp_lag3",
+            "importance": 3.596675378503278e-05
+          },
+          {
+            "feature": "air_temp_lag1",
+            "importance": 3.3669854019535705e-05
+          },
+          {
+            "feature": "air_temp",
+            "importance": 3.286329229013063e-05
+          },
+          {
+            "feature": "turbidity_lag12",
+            "importance": 2.3174039597506635e-05
+          },
+          {
+            "feature": "turbidity_lag3",
+            "importance": 2.1646535969921388e-05
+          },
+          {
+            "feature": "turbidity_lag2",
+            "importance": 2.0658422727137804e-05
+          }
+        ]
+      }
+    },
+    {
+      "prediction": {
+        "ph": 0.7584516406059265,
+        "water_temp": -1.3735764026641846,
+        "turbidity": -1.1468393802642822
+      },
+      "top_features": {
+        "ph": [
+          {
+            "feature": "ph_roll_std_6",
+            "importance": 2.564728492870927e-05
+          },
+          {
+            "feature": "hour_cos",
+            "importance": 2.147333543689456e-05
+          },
+          {
+            "feature": "is_daytime",
+            "importance": 2.132301415258553e-05
+          },
+          {
+            "feature": "water_temp_diff",
+            "importance": 1.867272840172518e-05
+          },
+          {
+            "feature": "turbidity_diff",
+            "importance": 1.792770308384206e-05
+          },
+          {
+            "feature": "ph_roll_mean_6",
+            "importance": 1.564326521474868e-05
+          },
+          {
+            "feature": "wind_speed_lag3",
+            "importance": 1.4567784091923386e-05
+          },
+          {
+            "feature": "water_temp_roll_std_6",
+            "importance": 1.3853619748260826e-05
+          },
+          {
+            "feature": "rain",
+            "importance": 1.3631942238134798e-05
+          },
+          {
+            "feature": "ph_lag1",
+            "importance": 1.3499847227649298e-05
+          }
+        ],
+        "water_temp": [
+          {
+            "feature": "water_temp_roll_std_6",
+            "importance": 0.0001032226427923888
+          },
+          {
+            "feature": "ph_roll_std_6",
+            "importance": 5.820825754199177e-05
+          },
+          {
+            "feature": "water_temp_diff",
+            "importance": 5.691599290003069e-05
+          },
+          {
+            "feature": "turbidity_roll_std_6",
+            "importance": 3.086310243816115e-05
+          },
+          {
+            "feature": "turbidity_lag1",
+            "importance": 2.9318018277990632e-05
+          },
+          {
+            "feature": "water_temp_lag12",
+            "importance": 2.84312463918468e-05
+          },
+          {
+            "feature": "rain",
+            "importance": 2.772190055111423e-05
+          },
+          {
+            "feature": "hour_sin",
+            "importance": 2.698250136745628e-05
+          },
+          {
+            "feature": "turbidity_lag3",
+            "importance": 2.6112889827345498e-05
+          },
+          {
+            "feature": "turbidity_lag2",
+            "importance": 2.525571471778676e-05
+          }
+        ],
+        "turbidity": [
+          {
+            "feature": "turbidity_diff",
+            "importance": 3.826620741165243e-05
+          },
+          {
+            "feature": "turbidity_lag12",
+            "importance": 1.66923400684027e-05
+          },
+          {
+            "feature": "hour_cos",
+            "importance": 1.581340802658815e-05
+          },
+          {
+            "feature": "water_temp_roll_std_6",
+            "importance": 1.3605313142761588e-05
+          },
+          {
+            "feature": "day_sin",
+            "importance": 1.2148190762673039e-05
+          },
+          {
+            "feature": "turbidity_lag1",
+            "importance": 1.204919408337446e-05
+          },
+          {
+            "feature": "turbidity_roll_mean_6",
+            "importance": 1.1678060218400788e-05
+          },
+          {
+            "feature": "turbidity_roll_std_6",
+            "importance": 1.132497072831029e-05
+          },
+          {
+            "feature": "turbidity_lag2",
+            "importance": 1.0837135050678626e-05
+          },
+          {
+            "feature": "turbidity_lag6",
+            "importance": 1.0673059477994684e-05
+          }
+        ]
+      }
+    },
+    {
+      "prediction": {
+        "ph": 0.5669384002685547,
+        "water_temp": -0.38030529022216797,
+        "turbidity": -0.884957492351532
+      },
+      "top_features": {
+        "ph": [
+          {
+            "feature": "turbidity_diff",
+            "importance": 2.619467159092892e-05
+          },
+          {
+            "feature": "hour_sin",
+            "importance": 2.5735096642165445e-05
+          },
+          {
+            "feature": "turbidity_roll_std_6",
+            "importance": 1.7404941900167614e-05
+          },
+          {
+            "feature": "ph_roll_mean_6",
+            "importance": 1.6402409528382123e-05
+          },
+          {
+            "feature": "hour_cos",
+            "importance": 1.4256756003305782e-05
+          },
+          {
+            "feature": "is_daytime",
+            "importance": 1.3778357242699713e-05
+          },
+          {
+            "feature": "ph_lag2",
+            "importance": 1.2956125829077791e-05
+          },
+          {
+            "feature": "ph_lag3",
+            "importance": 1.2726822205877397e-05
+          },
+          {
+            "feature": "air_temp",
+            "importance": 1.2149194844823796e-05
+          },
+          {
+            "feature": "ph_lag1",
+            "importance": 1.1902137885044795e-05
+          }
+        ],
+        "water_temp": [
+          {
+            "feature": "water_temp_roll_std_6",
+            "importance": 4.646585512091406e-05
+          },
+          {
+            "feature": "water_temp_diff",
+            "importance": 4.406491279951297e-05
+          },
+          {
+            "feature": "water_temp_roll_mean_6",
+            "importance": 3.3836728107417e-05
+          },
+          {
+            "feature": "ph_lag12",
+            "importance": 3.308075974928215e-05
+          },
+          {
+            "feature": "ph_roll_std_6",
+            "importance": 3.1917530577629805e-05
+          },
+          {
+            "feature": "hour_sin",
+            "importance": 3.182356886100024e-05
+          },
+          {
+            "feature": "ph_lag6",
+            "importance": 3.0139672162476927e-05
+          },
+          {
+            "feature": "ph_lag3",
+            "importance": 2.996968396473676e-05
+          },
+          {
+            "feature": "ph_lag2",
+            "importance": 2.9080905733280815e-05
+          },
+          {
+            "feature": "temp_diff",
+            "importance": 2.8822918466175906e-05
+          }
+        ],
+        "turbidity": [
+          {
+            "feature": "water_temp_diff",
+            "importance": 2.322764521522913e-05
+          },
+          {
+            "feature": "water_temp_lag1",
+            "importance": 2.090895395667758e-05
+          },
+          {
+            "feature": "water_temp_roll_mean_6",
+            "importance": 1.9896806406904943e-05
+          },
+          {
+            "feature": "water_temp_lag3",
+            "importance": 1.9880990294041112e-05
+          },
+          {
+            "feature": "water_temp_lag2",
+            "importance": 1.9639472156995907e-05
+          },
+          {
+            "feature": "water_temp_lag12",
+            "importance": 1.7332748029730283e-05
+          },
+          {
+            "feature": "water_temp_lag6",
+            "importance": 1.6563300960115157e-05
+          },
+          {
+            "feature": "turbidity_diff",
+            "importance": 1.6174208212760277e-05
+          },
+          {
+            "feature": "is_daytime",
+            "importance": 1.5631843780283816e-05
+          },
+          {
+            "feature": "ph_lag2",
+            "importance": 1.4259552699513733e-05
+          }
+        ]
+      }
+    },
+    {
+      "prediction": {
+        "ph": 0.537600040435791,
+        "water_temp": -1.3090858459472656,
+        "turbidity": -0.8963186144828796
+      },
+      "top_features": {
+        "ph": [
+          {
+            "feature": "turbidity_roll_std_6",
+            "importance": 4.341511157690547e-06
+          },
+          {
+            "feature": "ph_roll_std_6",
+            "importance": 3.8315934034471866e-06
+          },
+          {
+            "feature": "turbidity_diff",
+            "importance": 3.512307557684835e-06
+          },
+          {
+            "feature": "wind_speed_lag3",
+            "importance": 3.1276488243747735e-06
+          },
+          {
+            "feature": "water_temp_roll_std_6",
+            "importance": 3.118634367638151e-06
+          },
+          {
+            "feature": "water_temp_lag1",
+            "importance": 3.1117963317228714e-06
+          },
+          {
+            "feature": "day_sin",
+            "importance": 2.976779114760575e-06
+          },
+          {
+            "feature": "water_temp_roll_mean_6",
+            "importance": 2.8629556254600175e-06
+          },
+          {
+            "feature": "water_temp_lag3",
+            "importance": 2.7356475129636237e-06
+          },
+          {
+            "feature": "wind_speed_lag1",
+            "importance": 2.729959078351385e-06
+          }
+        ],
+        "water_temp": [
+          {
+            "feature": "water_temp_roll_std_6",
+            "importance": 4.046185495099053e-05
+          },
+          {
+            "feature": "water_temp_diff",
+            "importance": 2.286531525896862e-05
+          },
+          {
+            "feature": "ph_roll_std_6",
+            "importance": 1.7774371372070163e-05
+          },
+          {
+            "feature": "turbidity_lag1",
+            "importance": 1.2344567039690446e-05
+          },
+          {
+            "feature": "turbidity_lag3",
+            "importance": 1.1043874110328034e-05
+          },
+          {
+            "feature": "turbidity_lag2",
+            "importance": 1.0515678695810493e-05
+          },
+          {
+            "feature": "rain",
+            "importance": 1.0195931281486992e-05
+          },
+          {
+            "feature": "turbidity_roll_mean_6",
+            "importance": 1.0089498573506717e-05
+          },
+          {
+            "feature": "rain_lag3",
+            "importance": 1.0082831977342721e-05
+          },
+          {
+            "feature": "water_temp_lag1",
+            "importance": 9.414335181645583e-06
+          }
+        ],
+        "turbidity": [
+          {
+            "feature": "turbidity_diff",
+            "importance": 0.0001084658142644912
+          },
+          {
+            "feature": "ph_roll_std_6",
+            "importance": 4.7568464651703835e-05
+          },
+          {
+            "feature": "air_temp_lag3",
+            "importance": 4.379908205009997e-05
+          },
+          {
+            "feature": "turbidity_lag1",
+            "importance": 4.300317959859967e-05
+          },
+          {
+            "feature": "turbidity_lag2",
+            "importance": 4.1185117879649624e-05
+          },
+          {
+            "feature": "air_temp_lag1",
+            "importance": 4.091799564776011e-05
+          },
+          {
+            "feature": "turbidity_roll_mean_6",
+            "importance": 4.024572990601882e-05
+          },
+          {
+            "feature": "turbidity_lag12",
+            "importance": 3.999246837338433e-05
+          },
+          {
+            "feature": "air_temp",
+            "importance": 3.898848808603361e-05
+          },
+          {
+            "feature": "turbidity_lag3",
+            "importance": 3.893090251949616e-05
+          }
+        ]
+      }
+    }
+  ]
+}
